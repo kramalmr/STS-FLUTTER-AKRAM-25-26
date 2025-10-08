@@ -51,6 +51,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
 
                       labelText: "Username",
+                      labelStyle: GoogleFonts.poppins(),
                       prefixIcon: Icon(Icons.person),
                     ),
                   ),
@@ -65,6 +66,7 @@ class _LoginPageState extends State<LoginPage> {
                         borderSide: BorderSide(color: Colors.green, width: 2),
                       ),
                       labelText: "Password",
+                      labelStyle: GoogleFonts.poppins(),
                       prefixIcon: Icon(Icons.lock),
                       suffixIcon: Icon(Icons.visibility),
                     ),
