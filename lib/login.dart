@@ -100,7 +100,10 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   ElevatedButton(
                     onPressed: () {},
-                    child: Text("Login"),
+                    child: Text(
+                      "Login",
+                      style: GoogleFonts.poppins(fontWeight: FontWeight.w500),
+                    ),
                     style: ElevatedButton.styleFrom(
                       elevation: 0,
                       backgroundColor: Colors.green[400],
